@@ -24,7 +24,7 @@
 1. Клонируйте репозиторий:
 
    ```
-   git clone https://github.com/yourusername/referral-system.git
+   git clone https://github.com/DzusDaTo/test_referral-system.git
    cd referral-system
    ```
 2. Установите зависимости:
