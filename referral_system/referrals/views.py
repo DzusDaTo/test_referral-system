@@ -20,8 +20,8 @@ class SendCodeView(APIView):
 
         code = randint(1000, 9999)
         self.codes[phone_number] = code
-        time.sleep(2)  # Симуляция задержки
-        return Response({"message": "Code sent", "code": code})  # Код можно убрать в продакшене
+        time.sleep(2)
+        return Response({"message": "Code sent", "code": code})
 
 
 class VerifyCodeView(APIView):
